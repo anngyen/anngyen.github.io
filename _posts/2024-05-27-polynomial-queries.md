@@ -14,7 +14,7 @@ Chào mọi người! Hôm nay, mình muốn giới thiệu về một kỹ thu�
 
 # Bài toán 1
 Cho mảng mảng có $n$ phần tử gồm các số nguyên. Cho $q$ truy vấn, mỗi truy vấn có dạng:
-- $u$ $v$: Tăng $a[u]$ lên 1 đơn vi, $a[u + 1]$ lên 2 đơn vị, ... hay nói tổng quát là tăng $i$ trong đoạn $[l, r]$ lên $i - l + 1$ đơn vị.
+- $$u$$ $v$: Tăng $a[u]$ lên 1 đơn vi, $a[u + 1]$ lên 2 đơn vị, ... hay nói tổng quát là tăng $i$ trong đoạn $[l, r]$ lên $i - l + 1$ đơn vị.
 
 Ý tưởng: Nếu bài toán này chỉ tăng các số trong đoạn $[u, v]$ lên một hằng số cụ thể thì rất đơn giản. Chúng ta chỉ việc dùng một mảng hiệu $b$. Với một truy vấn $[u, v]$ ta chỉ cần gán $b[u]$ += $val$, $b[v + 1]$ -= $val$ và sau đó ta chỉ cần tổng dồn lại bằng cách $b[i]$ += $b[i - 1]$ là xong.
 
