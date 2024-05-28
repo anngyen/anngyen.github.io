@@ -26,7 +26,7 @@ Với truy vấn 1, ta nhận ra đó là truy vấn tăng một lượng không
 
 Với truy vấn 2, thay vì xét từng giá trị $i$ thuộc đoạn $$[u, v]$$ và tăng lượng cố định là $$i$$ thì ta chỉ cần đếm số lần phần tử $i$ được tăng lên qua mỗi truy vấn và kết quả chỉ cần lấy $$i$$ $$*$$ $$cnt[i]$$.
 
-Độ phức tạp cơ bản nó chỉ là $O(n)$.
+Độ phức tạp cơ bản nó chỉ là $$O(n)$$.
 
 # Bài toán 2
 Cho mảng mảng có $$n$$ phần tử gồm các số nguyên. Cho $$q$$ truy vấn, mỗi truy vấn có dạng:
