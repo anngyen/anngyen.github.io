@@ -24,7 +24,7 @@ Nhận xét: Với mỗi phần tử nằm trong đoạn $$[u, v]$$, ta có tác
 
 Với truy vấn 1, ta nhận ra đó là truy vấn tăng một lượng không đổi cơ bản mình đã nó ở trên. Nên vấn để bây giờ là làm sao để giải quyết truy vấn 2.
 
-Với truy vấn 2, thay vì xét từng giá trị $i$ thuộc đoạn $$[u, v]$$ và tăng lượng cố định là $$i$$ thì ta chỉ cần đếm số lần phần tử $i$ được tăng lên qua mỗi truy vấn và kết quả chỉ cần lấy $$i$$ $$*$$ $$cnt[i]$$.
+Với truy vấn 2, thay vì xét từng giá trị $$i$$ thuộc đoạn $$[u, v]$$ và tăng lượng cố định là $$i$$ thì ta chỉ cần đếm số lần phần tử $$i$$ được tăng lên qua mỗi truy vấn và kết quả chỉ cần lấy $$i$$ $$*$$ $$cnt[i]$$.
 
 Độ phức tạp cơ bản nó chỉ là $$O(n)$$.
 
