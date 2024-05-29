@@ -51,11 +51,8 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "anngyenmail08@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: Quoc An
   github: anngyen
-  twitter: daattali
-  patreon: DeanAttali
   youtube: "@quocan5313"
   # whatsapp: 15551212
 #  medium: yourname
@@ -85,7 +82,6 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -100,7 +96,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "anngyen.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -195,7 +191,7 @@ footer-hover-col: "#0085A1"
 ####################
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-disqus: "Quoc An"
+disqus: "@disqus_7dsBJ18iAl"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -258,7 +254,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Ho Chi Minh/Vietnam"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
