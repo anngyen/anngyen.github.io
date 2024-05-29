@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Truy vấn cập nhật bậc thang - Polynomial Queries
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+subtitle: Lazy Update
+tags: [CP]
 comments: true
 mathjax: true
-author: Bill Smith
+author: An Nguyen
 ---
 
 Chào mọi người! Hôm nay, mình muốn giới thiệu về một kỹ thuật rất phổ biến và hữu ích trong xử lí truy vấn trên cây Segment Tree, cũng như cây BIT (Binary Indexed Tree) đó là cập nhật bậc thang (hay truy vấn bậc thang). Để hiểu sâu hơn về kỹ thuật này, trước hết, bạn cần phải có kiến thức về Lazy Propagation (hay còn gọi là Lazy Update) cùng với cơ chế hoạt động của cây BIT.
