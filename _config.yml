@@ -10,21 +10,21 @@
 ############################
 
 # Name of website
-title: My website
+title: My Blog
 
 # Your name to show in the footer
-author: Some Person
+author: An Nguyen
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
+  Home: "anngyen.github.io"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+    # - Learn markdown: "https://www.markdowntutorial.com/"
 
 ################
 # --- Logo --- #
